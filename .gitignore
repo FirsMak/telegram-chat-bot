@@ -1,0 +1,9 @@
+**__pycache__/
+/.env
+migrations/versions/*.py
+bin
+pyvenv.cfg
+include/
+lib64
+lib/
+

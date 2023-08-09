@@ -1,0 +1,230 @@
+{
+    "commands": {
+        "ADD_STOP_WORD_COMMANDS": {
+            "en": "adds a stop word",
+            "hi": "एक स्टॉप शब्द जोड़ता है",
+            "id": "menambahkan kata berhenti",
+            "pt": "adiciona uma palavra de parada",
+            "ru": "добавляет стоп слова",
+            "uk": "додає стоп слова"
+        },
+        "DELETE_STOP_WORD_COMMANDS": {
+            "en": "delete_stop_word [word] deletes the stop word you specified",
+            "hi": "delete_stop_word [शब्द] आपके द्वारा निर्दिष्ट स्टॉप शब्द को हटा देता है",
+            "id": "delete_stop_word [kata] menghapus kata berhenti yang Anda tentukan",
+            "pt": "delete_stop_word [palavra] exclui a palavra de parada que você especificou",
+            "ru": "delete_stop_word [word] удаляет указанное вами стоп слово",
+            "uk": "delete_stop_word [word] видаляє вказане вами стоп слово"
+        },
+        "GET_KARMA_ALL_COMMANDS": {
+            "en": "returns the karma of all chat participants",
+            "hi": "सभी चैट प्रतिभागियों के कर्म लौटाता है",
+            "id": "mengembalikan karma semua peserta obrolan",
+            "pt": "retorna o karma de todos os participantes do chat",
+            "ru": "возвращает карму всех участников чата",
+            "uk": "повертає карму всіх учасників чату"
+        },
+        "GET_KARMA_COMMANDS": {
+            "en": "returns your karma",
+            "hi": "आपका कर्म लौटाता है",
+            "id": "mengembalikan karma Anda",
+            "pt": "devolve seu carma",
+            "ru": "возвращает вашу карму",
+            "uk": "повертає вашу карму"
+        },
+        "GET_LANG_COMMANDS": {
+            "en": "returns a list of supported languages",
+            "hi": "समर्थित भाषाओं की एक सूची लौटाता है",
+            "id": "mengembalikan daftar bahasa yang didukung",
+            "pt": "retorna uma lista de idiomas suportados",
+            "ru": "возвращает список поддерживаемых языков",
+            "uk": "повертає список мов, що підтримуються"
+        },
+        "GET_PREFIX_COMMANDS": {
+            "en": "returns a prefix for the language model",
+            "hi": "भाषा मॉडल के लिए एक उपसर्ग लौटाता है",
+            "id": "mengembalikan awalan untuk model bahasa",
+            "pt": "retorna um prefixo para o modelo de idioma",
+            "ru": "возвращает прификс для языковой модели",
+            "uk": "повертає прифікс для мовної моделі"
+        },
+        "GET_STOP_WORD_COMMANDS": {
+            "en": "returns all stop words",
+            "hi": "सभी स्टॉप शब्द लौटाता है",
+            "id": "mengembalikan semua kata berhenti",
+            "pt": "retorna todas as palavras de parada",
+            "ru": "возвращает все стоп слова",
+            "uk": "повертає всі стоп слова"
+        },
+        "KARMA_POSITIVE_UPDATE_COMMANDS": {
+            "en": "with these words you can increase the karma of another person",
+            "hi": "इन शब्दों से आप दूसरे व्यक्ति के कर्म को बढ़ा सकते हैं",
+            "id": "dengan kata-kata ini Anda dapat meningkatkan karma orang lain",
+            "pt": "com essas palavras você pode aumentar o carma de outra pessoa",
+            "ru": "при помощи этих слов вы можете увеличить карму другого человека",
+            "uk": "за допомогою цих слів ви можете збільшити карму іншої людини"
+        },
+        "SET_ANTIFLOOD_COMMANDS": {
+            "en": "antiflood [on, off] enable/disable antiflood",
+            "hi": "बाढ़-रोधी [चालू, बंद] बाढ़-रोधी को सक्षम/अक्षम करें",
+            "id": "antiflood [hidup, mati] mengaktifkan/menonaktifkan antiflood",
+            "pt": "antiflood [on, off] ativar/desativar antiflood",
+            "ru": "antiflood [on, off] включает/выключает антифлуд",
+            "uk": "antiflood [on, off] включає/вимикає антифлуд"
+        },
+        "SET_KARMA_ALL_COMMANDS": {
+            "en": "set_karma_all [value], sets the karma of all chat participants to the specified value",
+            "hi": "set_karma_all [मान], सभी चैट प्रतिभागियों के कर्म को निर्दिष्ट मान पर सेट करता है",
+            "id": "set_karma_all [nilai], menyetel karma semua peserta obrolan ke nilai yang ditentukan",
+            "pt": "set_karma_all [value], define o karma de todos os participantes do chat para o valor especificado",
+            "ru": "set_karma_all [value], ставит карму всех участников чата на указаное значение",
+            "uk": "set_karma_all [value], ставить карму всіх учасників чату на вказане значення"
+        },
+        "SET_KARMA_MODE_COMMANDS": {
+            "en": "karma_mode [on, off] enable/disable karma mode",
+            "hi": "कर्म_मोड [चालू, बंद] कर्म मोड को सक्षम/अक्षम करें",
+            "id": "karma_mode [aktif, nonaktif] mengaktifkan/menonaktifkan mode karma",
+            "pt": "karma_mode [on, off] ativa/desativa o modo karma",
+            "ru": "karma_mode [on, off] включает/выключает режим кармы",
+            "uk": "karma_mode [on, off] включає/вимикає режим карми"
+        },
+        "SET_LANG_COMMANDS": {
+            "en": "set_lang [lang_code] sets a language from the list of supported languages",
+            "hi": "set_lang [lang_code] समर्थित भाषाओं की सूची से एक भाषा सेट करता है",
+            "id": "set_lang [lang_code] menyetel bahasa dari daftar bahasa yang didukung",
+            "pt": "set_lang [lang_code] define um idioma da lista de idiomas suportados",
+            "ru": "set_lang [lang_code] устанавливает язык из списка поддерживаемых языков",
+            "uk": "set_lang [lang_code] встановлює мову зі списку підтримуваних мов"
+        },
+        "SET_PREFIX_COMMANDS": {
+            "en": "set_prefix [text] sets the prefix for the language model",
+            "hi": "set_prefix [text] भाषा मॉडल के लिए उपसर्ग सेट करता है",
+            "id": "set_prefix [teks] menetapkan awalan untuk model bahasa",
+            "pt": "set_prefix [texto] define o prefixo para o modelo de idioma",
+            "ru": "set_prefix [text] устанавливает префикс для языковой модели",
+            "uk": "set_prefix [text] встановлює префікс для мовної моделі"
+        }
+    },
+    "messages": {
+        "ARG_NOT_RECOGNIZED_MESSAGE": {
+            "en": "argument not recognized",
+            "hi": "तर्क पहचाना नहीं गया",
+            "id": "argumen tidak diakui",
+            "pt": "argumento não reconhecido",
+            "ru": "аргумент не распознан",
+            "uk": "аргумент не розпізнаний"
+        },
+        "KARMA_MODE_EXCEPTION_MESSAGE": {
+            "en": "karma mode disabled",
+            "hi": "कर्म मोड अक्षम",
+            "id": "mode karma dinonaktifkan",
+            "pt": "modo carma desativado",
+            "ru": "режим кармы отключен",
+            "uk": "режим карми вимкнено"
+        },
+        "KARMA_MODE_UPDATE_MESSAGE": {
+            "en": "karma mode",
+            "hi": "कर्म विधा",
+            "id": "modus karma",
+            "pt": "modo carma",
+            "ru": "режим кармы ",
+            "uk": "режим карми"
+        },
+        "KARMA_POSITIVE_UPDATE_MESSAGE": {
+            "en": "you have increased karma, your karma -",
+            "hi": "आपने कर्म बढ़ाया है, आपका कर्म -",
+            "id": "Anda telah meningkatkan karma, karma Anda -",
+            "pt": "você aumentou o karma, seu karma -",
+            "ru": "вам повысили карму, ваша карма - ",
+            "uk": "вам підвищили карму, ваша карма -"
+        },
+        "KARMA_STATE_MESSAGE": {
+            "en": "your karma -",
+            "hi": "आपका कर्म -",
+            "id": "karma Anda -",
+            "pt": "seu carma -",
+            "ru": "ваша карма - ",
+            "uk": "ваша карма -"
+        },
+        "LANGUAGE_NOT_SUPPORTED_MESSAGE": {
+            "en": "this language is not supported",
+            "hi": "यह भाषा समर्थित नहीं है",
+            "id": "bahasa ini tidak didukung",
+            "pt": "este idioma não é suportado",
+            "ru": "этот язык не поддерживается",
+            "uk": "ця мова не підтримується"
+        },
+        "OFF": {
+            "en": "switched off",
+            "hi": "बंद किया",
+            "id": "dimatikan",
+            "pt": "desligado",
+            "ru": "выключен",
+            "uk": "вимкнено"
+        },
+        "ON": {
+            "en": "included",
+            "hi": "शामिल",
+            "id": "termasuk",
+            "pt": "incluído",
+            "ru": "включен",
+            "uk": "увімкнено"
+        },
+        "PARSING_ERROR_MESSAGE": {
+            "en": "argument not recognized",
+            "hi": "तर्क पहचाना नहीं गया",
+            "id": "argumen tidak diakui",
+            "pt": "argumento não reconhecido",
+            "ru": "аргумент не распознан",
+            "uk": "аргумент не розпізнаний"
+        },
+        "STOP_WORDS_NOT_FOUND_MESSAGE": {
+            "en": "stop words not found",
+            "hi": "रोकें शब्द नहीं मिले",
+            "id": "kata berhenti tidak ditemukan",
+            "pt": "parar palavras não encontradas",
+            "ru": "стоп слова не найдены",
+            "uk": "стоп слова не знайдено"
+        },
+        "SUCCESSFUL_ADD_STOP_WORDS_MESSAGE": {
+            "en": "stop words added successfully",
+            "hi": "शब्दों को सफलतापूर्वक जोड़ा गया रोकें",
+            "id": "hentikan kata berhasil ditambahkan",
+            "pt": "palavras de parada adicionadas com sucesso",
+            "ru": "стоп слова успешно добавлены",
+            "uk": "стоп слова успішно додані"
+        },
+        "SUCCESSFUL_LANG_SET_MESSAGE": {
+            "en": "language changed successfully",
+            "hi": "भाषा सफलतापूर्वक बदल गई",
+            "id": "bahasa berhasil diubah",
+            "pt": "idioma alterado com sucesso",
+            "ru": "язык успешно изменен",
+            "uk": "мова успішно змінена"
+        },
+        "SUCCESS_RESULT_MESSAGE": {
+            "en": "command completed successfully",
+            "hi": "आदेश सफलतापूर्वक पूरा हुआ",
+            "id": "perintah berhasil diselesaikan",
+            "pt": "comando concluído com sucesso",
+            "ru": "команда выполнена успешно",
+            "uk": "команда виконана успішно"
+        },
+        "UNSUCCESS_RESULT_MESSAGE": {
+            "en": "failed to execute command",
+            "hi": "आदेश निष्पादित करने में विफल",
+            "id": "gagal mengeksekusi perintah",
+            "pt": "falha ao executar o comando",
+            "ru": "не удалось выполнить команду",
+            "uk": "не вдалося виконати команду"
+        },
+        "ZERO_KARMA_MEMBERS_MESSAGE": {
+            "en": "karma of all participants -",
+            "hi": "सभी प्रतिभागियों के कर्म -",
+            "id": "karma semua peserta -",
+            "pt": "carma de todos os participantes -",
+            "ru": "карма всех участников - ",
+            "uk": "карма всіх учасників -"
+        }
+    }
+}
