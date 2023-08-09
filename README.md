@@ -2,7 +2,7 @@
 
 Telegram chat bot using OpenAssistant.
 
-# The bot can
+# Возможности бота:
 
 Karma:
 
