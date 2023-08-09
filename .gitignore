@@ -2,7 +2,7 @@
 /.env
 migrations/versions/*.py
 bin
-pyvenv.cfg
+/pyvenv.cfg
 include/
 lib64
 lib/
